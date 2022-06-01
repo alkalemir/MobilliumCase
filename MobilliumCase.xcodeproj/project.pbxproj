@@ -66,7 +66,7 @@
 			children = (
 				0497868F28478858007283B0 /* AppDelegate.swift */,
 				0497869128478858007283B0 /* SceneDelegate.swift */,
-				049786A6284788CE007283B0 /* Model */,
+				04D1465D2847C44400AA47E1 /* Model */,
 				049786A3284788A7007283B0 /* View */,
 				049786A4284788B0007283B0 /* Controller */,
 				04D1465B2847B53E00AA47E1 /* constants.swift */,
@@ -95,13 +95,12 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		049786A6284788CE007283B0 /* Model */ = {
+		04D1465D2847C44400AA47E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				04D146592847B00500AA47E1 /* MovieBrain.swift */,
 			);
-			name = Model;
-			path = ..;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
