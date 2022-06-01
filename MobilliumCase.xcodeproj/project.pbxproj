@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0439F3712847AED300E0B311 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F3702847AED300E0B311 /* MovieListViewController.swift */; };
 		0497869028478858007283B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497868F28478858007283B0 /* AppDelegate.swift */; };
 		0497869228478858007283B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497869128478858007283B0 /* SceneDelegate.swift */; };
-		0497869428478858007283B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497869328478858007283B0 /* ViewController.swift */; };
 		0497869728478858007283B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0497869528478858007283B0 /* Main.storyboard */; };
 		049786992847885A007283B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049786982847885A007283B0 /* Assets.xcassets */; };
 		0497869C2847885A007283B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0497869A2847885A007283B0 /* LaunchScreen.storyboard */; };
+		049786A828478922007283B0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049786A728478922007283B0 /* RegisterViewController.swift */; };
+		049786AA2847918B007283B0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049786A92847918B007283B0 /* LoginViewController.swift */; };
+		04D1465A2847B00500AA47E1 /* MovieBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D146592847B00500AA47E1 /* MovieBrain.swift */; };
+		04D1465C2847B53E00AA47E1 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1465B2847B53E00AA47E1 /* constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0439F3702847AED300E0B311 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		0497868C28478858007283B0 /* MobilliumCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilliumCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0497868F28478858007283B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0497869128478858007283B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0497869328478858007283B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0497869628478858007283B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		049786982847885A007283B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0497869B2847885A007283B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0497869D2847885A007283B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049786A728478922007283B0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		049786A92847918B007283B0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04D146592847B00500AA47E1 /* MovieBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBrain.swift; sourceTree = "<group>"; };
+		04D1465B2847B53E00AA47E1 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,42 @@
 			children = (
 				0497868F28478858007283B0 /* AppDelegate.swift */,
 				0497869128478858007283B0 /* SceneDelegate.swift */,
-				0497869328478858007283B0 /* ViewController.swift */,
-				0497869528478858007283B0 /* Main.storyboard */,
+				049786A6284788CE007283B0 /* Model */,
+				049786A3284788A7007283B0 /* View */,
+				049786A4284788B0007283B0 /* Controller */,
+				04D1465B2847B53E00AA47E1 /* constants.swift */,
 				049786982847885A007283B0 /* Assets.xcassets */,
 				0497869A2847885A007283B0 /* LaunchScreen.storyboard */,
 				0497869D2847885A007283B0 /* Info.plist */,
 			);
 			path = MobilliumCase;
+			sourceTree = "<group>";
+		};
+		049786A3284788A7007283B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0497869528478858007283B0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049786A4284788B0007283B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				049786A728478922007283B0 /* RegisterViewController.swift */,
+				049786A92847918B007283B0 /* LoginViewController.swift */,
+				0439F3702847AED300E0B311 /* MovieListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049786A6284788CE007283B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04D146592847B00500AA47E1 /* MovieBrain.swift */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0497869428478858007283B0 /* ViewController.swift in Sources */,
+				049786AA2847918B007283B0 /* LoginViewController.swift in Sources */,
+				04D1465A2847B00500AA47E1 /* MovieBrain.swift in Sources */,
+				0439F3712847AED300E0B311 /* MovieListViewController.swift in Sources */,
+				04D1465C2847B53E00AA47E1 /* constants.swift in Sources */,
+				049786A828478922007283B0 /* RegisterViewController.swift in Sources */,
 				0497869028478858007283B0 /* AppDelegate.swift in Sources */,
 				0497869228478858007283B0 /* SceneDelegate.swift in Sources */,
 			);
